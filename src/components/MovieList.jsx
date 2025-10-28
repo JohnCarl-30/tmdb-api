@@ -7,10 +7,6 @@ export default function MovieList({ loading, error, movies }) {
     return <p style={{ color: "red" }}>{error}</p>;
   }
 
-  if (movies.length === 0) {
-    return <p>No movies found.</p>;
-  }
-
   return (
     <div className="card-list">
       {movies
