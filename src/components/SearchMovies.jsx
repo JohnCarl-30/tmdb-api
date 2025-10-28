@@ -4,7 +4,7 @@ export default function SearchMovies({ setLoading, setMovies, setError }) {
   const [query, setQuery] = useState("");
   const [searchHistory, setSearchHistory] = useState([]);
 
-  const apiKey = import.meta.env.VITE_MOVIE_API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   const handleSearch = async (e) => {
     e.preventDefault();
