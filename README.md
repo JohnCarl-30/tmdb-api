@@ -1,5 +1,5 @@
 # React + Vite
-Learning how to use useEffect and manage components.
+Learning how to manage components.
 https://search-movie-jc-phi.vercel.app/
 
 Just visit this link and login to get your api for free.
